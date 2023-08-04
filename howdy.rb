@@ -19,3 +19,8 @@ require "active_support/all"
 "rubies".singularize    # => "ruby"
 "equipment".singularize # => "equipment"
 
+pp "What's your name?"
+
+their_name = gets.chomp
+
+puts "Hello, " + their_name + "!"
